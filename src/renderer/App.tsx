@@ -1,7 +1,7 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Views/Home';
-import Patricija from './Views/Patricija/Patricija';
-import Filip from './Views/Filip';
+import City from './Views/City/City';
+import Nature from './Views/Nature/Nature';
 import './App.css';
 
 export default function App() {
@@ -9,8 +9,8 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/patricija" element={<Patricija />} />
-        <Route path="/filip" element={<Filip />} />
+        <Route path="/city" element={<City />} />
+        <Route path="/nature" element={<Nature />} />
       </Routes>
     </Router>
   );

@@ -68,3 +68,9 @@ a:hover {
   top: 5px;
   left: 5px
 }
+
+.stop {
+  position: absolute;
+  right: 5px;
+  top: 5px
+}
