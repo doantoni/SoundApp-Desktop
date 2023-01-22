@@ -196,7 +196,7 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "Tribaninjo",
+    "productName": "SoundsApp",
     "appId": "org.erb.ElectronReact",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
